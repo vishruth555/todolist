@@ -23,7 +23,7 @@ function add(x){
         <form>
         <div class="item">
           <input type="checkbox" name="checkbox">
-          <p>${localStorage.getItem(x)}</p>
+          <p contenteditable="true">${localStorage.getItem(x)}</p>
         </div>
         </form>
         `
